@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="icons/logo.jpg" alt="logo"></div>
+            <li class="brand">Weather</li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+        <div class="rightnav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+
+        </div>
+    </nav>
+    <div class="box-main" id="home">
+        <div class="firsthalf">
+            <div class="container">
+                <div class="searchinputbox">
+                    <input type="text" id="input-box" class="input-box" placeholder="Enter city Name.."
+                        autocomplete="off">
+                </div>
+                <div class="weather-body">
+                    <div class="location-details">
+                        <div class="city" id="city">------</div>
+                        <div class="date" id="date">------</div>
+                    </div>
+                    <div class="weather-status">
+                        <div class="img" id="img">-----</div>
+                        <div class="temp" id="temp">-----</div>
+                        <div class="min-max" id="min-max">------</div>
+                        <div class="weather" id="weather">------</div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="secondhalf">
+            <div class="container2">
+
+                <div class="weather-body2">
+                    <div class="row">
+                        <div class="container4 main1">
+                            <span>Feels Like<div class="feel" id="feel"></div></span>
+                         </div>
+                         <div class="container4 main1">
+                            <span>Humidity <div class="Humidity" id="Humidity"></div></span>
+                          </div>
+                    </div>
+                    <div class="row">
+                        <div class="container4 main1">
+                            <span>Pressure <div class="pressure" id="pressure"></div>
+                         </div>
+                         <div class="container4 main1">
+                            <span>Wind Speed<div class="wind" id="wind"></div>
+                          </div>
+                    </div>
+                    <div class="row">
+                        <div class="container4 main1">
+                            <span>Sunrise<div class="wind" id="sunrise"></div>
+                         </div>
+                         <div class="container4 main1">
+                            <span>Sunset<div class="wind" id="sunset"></div>
+                          </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    
+    
+</div>
+<div class="container5">
+    <h2 class="center">5-day forecast</h2>
+</div>
+
+
+<hr>
+<div class="other">
+    <div class="container3" id="box1">
+        <div class="img-sm" id="img1">-----</div>
+        <div class="week" id="week1">-----</div>
+        <div class="min-max-sm" id="max1">-------</div>
+
+    </div>
+    <div class="container3" id="box2">
+        <div class="img-sm" id="img2">-----</div>
+        <div class="week" id="week2">------</div>
+        <div class="min-max-sm" id="max2">------</div>
+    </div>
+    <div class="container3" id="box3">
+        <div class="img-sm" id="img3">-----</div>
+        <div class="week" id="week3">------</div>
+        <div class="min-max-sm" id="max3">------</div>
+    </div>
+    <div class="container3" id="box4">
+        <div class="img-sm" id="img4">-----</div>
+        <div class="week" id="week4">------</div>
+        <div class="min-max-sm" id="max4">------</div>
+    </div>
+    <div class="container3" id="box5">
+        <div class="img-sm" id="img5">-----</div>
+        <div class="week" id="week5">------</div>
+        <div class="min-max-sm" id="max5">------</div>
+    </div>
+    
+</div>
+<hr>
+<div class="container6">
+    <div class="container8">
+        <div class="card">
+            <div class="imgbx">
+                <a href="">
+                <img src="icons/mask.png" >
+            </a>
+          
+            </div>
+           <h2><div id="aqi">---</div></h2>
+            <p id="para">-------</p>
+            <button id="btn1" onclick="hide()">Read more</button>
+        </div>
+        <div class="card">
+            <div class="imgbx">
+                <a href="">
+                <img src="icons/clear.png" >
+            </a>
+          
+            </div>
+            <h2>Baked fat</h2>
+            <p><br>
+           -----
+            </p>
+        </div>
+        <div class="card">
+            <div class="imgbx">
+                <a href="">
+                <img src="icons/back.jpg" >
+            </a>
+          
+            </div>
+            <h2>Baked fat</h2>
+            <p><br>
+           -------
+            </p>
+        </div>
+    </div>
+</div>
+<footer>All Rights Are Reserved
+    <h4>Powered By WeatherMap</h4>
+</footer>
+
+    <script src="main.js"></script>
+    <!-- <script src="other.js"></script> -->
+
+</body>
+
+</html>
